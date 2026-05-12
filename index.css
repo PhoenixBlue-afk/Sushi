@@ -24,6 +24,10 @@
 *{
     background-color: pink;
 }
+.lead{
+    margin-top: 5%;
+    margin-left: -20%;
+}
 
 #content-box{
     padding-left: 35%;
@@ -53,14 +57,27 @@
 /*#caja0{
     margin-bottom: px;
 }*/
-#imagen{
-    border-radius: 50%;
-}
+
 #cont-btn{
     padding-left: 20%;
+    justify-content: space-between;
 }
 .loved-by-the-king-regular {
   font-family: "Loved by the King", cursive;
   font-weight: 400;
   font-style: normal;
+}
+img {
+  width: 300px;           /* Ancho fijo - ajústalo según necesites */
+  height: 300px;          /* Alto fijo (mismo que ancho para círculo) */
+  border-radius: 35%;     /* Esto las hace completamente redondas */
+  object-fit: cover;      /* Evita que la imagen se deforme */
+}
+@font-face {
+  font-family: 'Romantica';
+  src: url('./Romantica.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Romantica', sans-serif;
 }
