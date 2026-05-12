@@ -3,10 +3,6 @@ medidas=[];
 const btn = document.getElementById("Boton");
 let relleno = document.getElementById("relleno");
 let imagen = document.getElementById("foto")
-let imagen1 = document.getElementById("foto1")
-let imagen2 = document.getElementById("foto2")
-let relleno3=document.getElementById("relleno3")
-let imagen3=document.getElementById("foto3")
 
 let counter = 0;
 
