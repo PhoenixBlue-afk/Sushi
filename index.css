@@ -73,3 +73,11 @@ img {
   border-radius: 35%;     /* Esto las hace completamente redondas */
   object-fit: cover;      /* Evita que la imagen se deforme */
 }
+@font-face {
+  font-family: 'Romantica';
+  src: url('./Romantica.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Romantica', sans-serif;
+}
